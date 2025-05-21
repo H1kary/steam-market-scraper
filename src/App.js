@@ -123,7 +123,7 @@ function App() {
               <p>AppID: {item.appid}</p>
               <p>Минимальная цена: {item.lowest_price}</p>
               <p>Медианная цена: {item.median_price}</p>
-              <p>Объем: {item.volume}</p>
+              <p>Продажи за сегодня: {item.volume}</p>
               <p>Последнее обновление: {item.lastUpdated}</p>
               <div className="item-actions" onClick={(e) => e.stopPropagation()}>
                 <button onClick={() => handleUpdatePrice(item.id)}>
